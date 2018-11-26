@@ -1,0 +1,111 @@
+/* MAIN COLORS 
+
+WHITE: white;
+ALMOST WHITE BUT GRAY: #F2F2F2;
+
+*/
+
+/* SCSS VARIABLES */
+
+//colors
+$bkgcolor: #dbdbdb;
+$ctcolor: #ffffff;
+$bordcolor: #f8f8f8;
+$bordbackground: #f8f8f8;
+$bordfocus: #444444;
+$bkgfocus: #555555;
+$btnhover: #222222;
+
+//fonts
+$roboto: "Roboto Condensed", sans-serif;
+$oswald: "Oswald", sans-serif;
+
+/* END OF SCSS VARIABLES */
+
+body {
+  background-color: $bkgcolor;
+}
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+input:focus:-moz-placeholder {
+  color: transparent;
+} /* FF 4-18 */
+input:focus::-moz-placeholder {
+  color: transparent;
+} /* FF 19+ */
+input:focus:-ms-input-placeholder {
+  color: transparent;
+} /* IE 10+ */
+
+/* CSS CLASSES */
+.cont1 {
+  text-align: center;
+  background-color: $ctcolor;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+
+  // this is made to set basic styles in first container1
+  h1 {
+    font-size: 35px;
+    font-family: $oswald;
+  }
+
+  p {
+    text-transform: uppercase;
+    font-family: $oswald;
+  }
+
+  .cont2 {
+    padding-top: 40px;
+    line-height: 80%;
+  }
+
+  .wrapper {
+    .forms {
+      display: inline-block;
+      text-align: center;
+      padding-top: 40px;
+      padding-bottom: 20px;
+
+      input,
+      textarea {
+        font-family: $roboto;
+        margin-top: 6px;
+        text-transform: uppercase;
+        width: 300px;
+        border: 1px solid $ctcolor;
+        text-align: center;
+        font-size: 15px;
+        background: $bordbackground;
+        padding: 1rem;
+
+        &:focus {
+          border: 0.5px solid $bordfocus;
+          background: $bordbackground;
+        } //end of :focus
+      } //end of input,textarea
+
+      #login-btn {
+        margin-top: 40px;
+        border: 0;
+        background: black;
+        padding: 0.5rem;
+        color: white;
+        width: auto;
+        text-transform: uppercase;
+        font-size: 15px;
+        cursor: pointer;
+
+        &:hover {
+          background: $btnhover;
+          color: white;
+        } //end of login-btn :hover
+      } //end of login-btn
+    } // end of forms
+  } //end of wrapper
+} //end of cont 1
+
+/* END OF CSS CLASSES */

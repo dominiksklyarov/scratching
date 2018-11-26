@@ -19,7 +19,7 @@
   if(empty($usernameError) and empty($passwordError)){
 	 $notice = signin($username, $_POST["password"]);
 	 } else {
-	  $notice = "Ei saa sisse logida!";
+	  $notice = "Go back!";
   }
   
   }
@@ -32,6 +32,7 @@
         <title>
             <p>Testing website</p>
         </title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
     </head>
 
     <body>

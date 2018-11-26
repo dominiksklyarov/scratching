@@ -1,0 +1,80 @@
+/* MAIN COLORS 
+
+WHITE: white;
+ALMOST WHITE BUT GRAY: #F2F2F2;
+
+*/
+/* SCSS VARIABLES */
+/* END OF SCSS VARIABLES */
+body {
+  background-color: #dbdbdb; }
+
+input:focus::-webkit-input-placeholder {
+  color: transparent; }
+
+input:focus:-moz-placeholder {
+  color: transparent; }
+
+/* FF 4-18 */
+input:focus::-moz-placeholder {
+  color: transparent; }
+
+/* FF 19+ */
+input:focus:-ms-input-placeholder {
+  color: transparent; }
+
+/* IE 10+ */
+/* CSS CLASSES */
+.cont1 {
+  text-align: center;
+  background-color: #ffffff;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px; }
+  .cont1 h1 {
+    font-size: 35px;
+    font-family: "Oswald", sans-serif; }
+  .cont1 p {
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif; }
+  .cont1 .cont2 {
+    padding-top: 40px;
+    line-height: 80%; }
+  .cont1 .wrapper .forms {
+    display: inline-block;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px; }
+    .cont1 .wrapper .forms input,
+    .cont1 .wrapper .forms textarea {
+      font-family: "Roboto Condensed", sans-serif;
+      margin-top: 6px;
+      text-transform: uppercase;
+      width: 300px;
+      border: 1px solid #ffffff;
+      text-align: center;
+      font-size: 15px;
+      background: #f8f8f8;
+      padding: 1rem; }
+      .cont1 .wrapper .forms input:focus,
+      .cont1 .wrapper .forms textarea:focus {
+        border: 0.5px solid #444444;
+        background: #f8f8f8; }
+    .cont1 .wrapper .forms #login-btn {
+      margin-top: 40px;
+      border: 0;
+      background: black;
+      padding: 0.5rem;
+      color: white;
+      width: auto;
+      text-transform: uppercase;
+      font-size: 15px;
+      cursor: pointer; }
+      .cont1 .wrapper .forms #login-btn:hover {
+        background: #222222;
+        color: white; }
+
+/* END OF CSS CLASSES */
+
+/*# sourceMappingURL=stylesheet.css.map */
