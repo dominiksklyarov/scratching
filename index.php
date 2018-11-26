@@ -43,7 +43,7 @@
 	  
         <input name="password" type="password" placeholder="Password">&nbsp;<span><?php echo $passwordError; ?></span><br>
 	  
-	  <input name="login" type="submit" value="Logi sisse">&nbsp;<span><?php echo $notice; ?>
+	  <input name="login" type="submit" value="Log in!">&nbsp;<span><?php echo $notice; ?>
 	</form>
 
 
